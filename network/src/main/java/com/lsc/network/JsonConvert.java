@@ -1,0 +1,35 @@
+package com.lsc.network;
+
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+
+import java.lang.reflect.Type;
+
+/**
+ * Created by lsc on 2020-03-17 15:34.
+ * E-Mail:2965219926@qq.com
+ */
+public class JsonConvert implements Convert{
+
+    @Override
+    public Object convert(String response, Type type) {
+        JSONObject jsonObject = JSON.parseObject(response);
+        JSONObject data = jsonObject.getJSONObject("data");
+        if (data != null){
+            Object data1 = data.get("data");
+            return JSON.parseObject(data1.toString(),type);
+        }
+        return null;
+    }
+
+    @Override
+    public Object convert(String response, Class claz) {
+        JSONObject jsonObject = JSON.parseObject(response);
+        JSONObject data = jsonObject.getJSONObject("data");
+        if (data != null){
+            Object data1 = data.get("data");
+            return JSON.parseObject(data1.toString(),claz);
+        }
+        return null;
+    }
+}

@@ -1,2 +1,2 @@
-include ':app', ':navigator', ':libnavannotation', ':libnavcompile'
+include ':app', ':navigator', ':libnavannotation', ':libnavcompile', ':network'
 rootProject.name='Jetpack'

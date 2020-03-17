@@ -9,6 +9,7 @@ import com.lsc.navigator.utils.NavGraphBuilder;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -25,11 +26,12 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
         BottomNavigationView navView = findViewById(R.id.nav_view);
 
+        Fragment fragment = getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
         mNavController = Navigation.findNavController(this, R.id.nav_host_fragment);
 
         NavigationUI.setupWithNavController(navView, mNavController);
 
-        NavGraphBuilder.build(mNavController);
+        NavGraphBuilder.build(mNavController,this,fragment.getId());
         navView.setOnNavigationItemSelectedListener(this);
     }
 
