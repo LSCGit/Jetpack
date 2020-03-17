@@ -30,3 +30,6 @@ annotationProcessor 'com.google.auto.service:auto-service:1.0-rc6'
 AndroidManifest 允许明文请求，允许对Http接口进行访问 android:usesCleartextTraffic="true"
 
 网络库 OkHttp
+
+## room
+room 是Google为了简化旧式的SQLite，只是对SQLite的简单封装。拥有SQLite所有功能，可以和liveData，lifeCycle，paging融合。
