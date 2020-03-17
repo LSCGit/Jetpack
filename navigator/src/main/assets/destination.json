@@ -1,18 +1,1 @@
-{
-  "com.lsc.navigator.ui.home.HomeFragemnt": {
-    "asStarter": true,
-    "needLogin": false,
-    "isActivity": false,
-    "pageUrl": "com.lsc.navigator.ui.home.HomeFragemnt",
-    "id": 451246214,
-    "clazzName": "com.lsc.navigator.ui.home.HomeFragment"
-  },
-  "com.lsc.navigator.ui.home.DashboardFragment": {
-    "asStarter": false,
-    "needLogin": false,
-    "isActivity": false,
-    "pageUrl": "com.lsc.navigator.ui.home.DashboardFragment",
-    "id": 1733023590,
-    "clazzName": "com.lsc.navigator.ui.dashboard.DashboardFragment"
-  }
-}
+{"main/tabs/sofa":{"asStarter":false,"needLogin":false,"isActivity":false,"pageUrl":"main/tabs/sofa","id":1250014598,"clazzName":"com.lsc.navigator.ui.sofa.SofaFragment"},"main/tabs/home":{"asStarter":true,"needLogin":false,"isActivity":false,"pageUrl":"main/tabs/home","id":451246214,"clazzName":"com.lsc.navigator.ui.home.HomeFragment"},"main/tabs/publish":{"asStarter":false,"needLogin":false,"isActivity":false,"pageUrl":"main/tabs/publish","id":348630308,"clazzName":"com.lsc.navigator.ui.publish.PublishFragment"},"main/tabs/find":{"asStarter":false,"needLogin":false,"isActivity":false,"pageUrl":"main/tabs/find","id":1168031674,"clazzName":"com.lsc.navigator.ui.find.FindFragment"},"main/tabs/my":{"asStarter":false,"needLogin":false,"isActivity":false,"pageUrl":"main/tabs/my","id":641830906,"clazzName":"com.lsc.navigator.ui.mine.MineFragment"}}

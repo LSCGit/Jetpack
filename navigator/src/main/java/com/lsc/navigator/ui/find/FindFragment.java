@@ -1,4 +1,4 @@
-package com.lsc.navigator.ui.home;
+package com.lsc.navigator.ui.find;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import androidx.fragment.app.Fragment;
 import com.lsc.libnavannotation.FragmentNav;
 import com.lsc.navigator.R;
 
-@FragmentNav(pageUrl = "main/tabs/home",asStarter = true)
-public class HomeFragment extends Fragment {
+@FragmentNav(pageUrl = "main/tabs/find")
+public class FindFragment extends Fragment {
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
