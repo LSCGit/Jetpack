@@ -1,0 +1,18 @@
+{
+  "com.lsc.navigator.ui.home.HomeFragemnt": {
+    "asStarter": true,
+    "needLogin": false,
+    "isActivity": false,
+    "pageUrl": "com.lsc.navigator.ui.home.HomeFragemnt",
+    "id": 451246214,
+    "clazzName": "com.lsc.navigator.ui.home.HomeFragment"
+  },
+  "com.lsc.navigator.ui.home.DashboardFragment": {
+    "asStarter": false,
+    "needLogin": false,
+    "isActivity": false,
+    "pageUrl": "com.lsc.navigator.ui.home.DashboardFragment",
+    "id": 1733023590,
+    "clazzName": "com.lsc.navigator.ui.dashboard.DashboardFragment"
+  }
+}
